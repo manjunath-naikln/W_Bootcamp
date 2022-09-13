@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Welcome</title>
+    <style>
+        div{
+            
+            align:center;
+            justify-content: center;
+            display:flex;
+            background-color: rgb(221, 221, 229);
+            margin:auto;
+            width:30%;
+            height:100%;
+            padding:20px;
+            border:2px solid blue;
+            border-radius: 5px;
+        }
+        input,textarea {
+            /* border:0; */
+            margin:5px;
+            width: 80%;
+            padding:10px;
+        }
+        textarea {
+            overflow:scroll;
+            /* position:; */
+        }
+        .sumt_btn{
+            width:80%;
+            background-color:rgb(18, 181, 18);
+            border: 0;
+            padding:5px;
+            margin:6px;
+        }
+        .reset_btn{
+            width:80%;
+            border: 0;
+            padding:5px;
+            margin:6px;
+            background-color:rgb(193, 94, 49);
+        }
+        
+    </style>
+</head>
+<body style="background-color:rgb(18, 181, 18) ;">
+    <div >
+        <form>
+            <h4>
+                Contact us for Custom quotes
+            </h4>
+            <input type="text" placeholder="Your Name"/>
+            <input type="text" placeholder="Your Email Address"/>
+            <input type="text" placeholder="Your Phone Number(Optional)"/>
+            <input type="text" placeholder="Your Web Site(Optional)"/>
+            <textarea placeholder="Type Your message here...."></textarea><br>
+            <button type="submit" value="submit" class="sumt_btn">Submit</button>
+            <button type="reset" value="reset" class="reset_btn">Reset</button>
+        </form>
+    </div>
+   </body>
+</html>
